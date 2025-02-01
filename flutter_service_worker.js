@@ -6,7 +6,7 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c",
 "assets/AssetManifest.bin.json": "69a99f98c8b1fb8111c5fb961769fcd8",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
-"htmlimg.github.io/assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "8ea08ea2444cc58ec5807fd7669e488f",
 "assets/NOTICES": "3e128886770ed6386eed0e8f135577df",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "e986ebe42ef785b27164c36a9abc7818",
@@ -28,18 +28,18 @@ const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"htmlimg.github.io/index.html": "206416fdb71608b4c0c19ef6da1157dc",
+"index.html": "206416fdb71608b4c0c19ef6da1157dc",
 "/": "206416fdb71608b4c0c19ef6da1157dc",
-"htmlimg.github.io/main.dart.js": "2d9555d037037a5d0dab812afda1c72c",
-"htmlimg.github.io/manifest.json": "57a62777f188b89a90efc372992a9818",
+"main.dart.js": "2d9555d037037a5d0dab812afda1c72c",
+"manifest.json": "57a62777f188b89a90efc372992a9818",
 "version.json": "aa4a134969cb6c9b7ad89e6624fff65e"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = ["htmlimg.github.io/main.dart.js",
-"htmlimg.github.io/index.html",
-"htmlimg.github.io/flutter_bootstrap.js",
-"htmlimg.github.io/assets/AssetManifest.bin.json",
-"htmlimg.github.io/assets/FontManifest.json"];
+const CORE = ["main.dart.js",
+"index.html",
+"flutter_bootstrap.js",
+"assets/AssetManifest.bin.json",
+"assets/FontManifest.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
